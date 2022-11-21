@@ -1,0 +1,72 @@
+
+.main{
+    background-color: #A4A4A4;
+    min-height: 125vh;
+}
+.form{
+    box-sizing: border-box;
+    position: absolute;
+    width: 800px;
+    left: 256px;
+    top: 269px;
+    background: #FFFFFF;
+    border: 1px solid #BEBEBE;
+    border-radius: 8px;
+
+}
+.form_top > p{
+    padding-left: 40px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background: #D9D9D9;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+}
+.form > p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    padding-left: 40px;
+    margin-top: 24px;
+}
+.form > input, select{
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    border-radius: 6px;
+    margin-top: 16px;
+    margin-left: 40px;
+    height: 40px;
+    width: 700px;
+}
+.form > button{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 149.8%;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    margin-top: 26px;
+}
+select{
+    padding: 5px 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #474646;
+}
+select > option{
+    padding: 5px 0px; 
+}

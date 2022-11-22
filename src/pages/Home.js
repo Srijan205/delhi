@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbar from '../components/navbar'
 import '../pages/Home.css'
 
 export const Home = () => {
